@@ -7,7 +7,8 @@ As simple as running `./gradlew build`.
 ## Configuration
 CCEmuX is highly configurable through the properties file and command line arguments. Run CCEmuX with the `--help` argument to see available command line options, which let you change things like the data directory and rendering method.
 
-To change the CCEmuX properties file, first start CCEmuX and then run `emu data` in the emulator. From the folder that opens, edit `ccemux.properties`. The options are all commented and relatively easy to use. Note that you will need to restart CCEmuX for any changes to take effect.
+To change the CCEmuX properties file, first start CCEmuX and then run `emu data` in the emulator. From the folder that opens, edit `ccemux.json`. The options are all commented and relatively easy to use. Note that you will need to restart CCEmuX for any changes to take effect.
+There is a template file you can use at `src/main/resources/ccemux.json`.
 
 ## Changing CC version
 From the properties file you can also control what version of CC is used. For compatibility reasons these options are not automatically generated and must be added manually.
